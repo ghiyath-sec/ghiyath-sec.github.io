@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <img src="./images/photo_2025-01-30_19-53-04.jpg" alt="Your Photo" class="profile-photo">
+            <h2>Ghiyath Abd Alrazak</h2>
+            <div class="job-title">
+                Security Engineer
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </nav>
+            <div class="show-projects-btn">
+                <button id="projectsBtn">
+                    Show Projects <span class="arrows">&raquo;&raquo;</span>
+                </button>
+                <button id="backBtn" style="display: none;">
+                    <span class="arrows">&raquo;&raquo;</span> Back to Portfolio
+                </button>
+            </div>
+        </aside>
+        <main class="content">
+            <section id="about">
+                <h2>About me</h2>
+                <p>
+                    Hi,<br>
+                    I am a Security Engineer and First Responder with over 2 years of experience supporting organizations in Saudi Arabia and the UK. <br> I specialize in enhancing security postures by designing tailored security architectures and implementing cutting-edge solutions that align with each organization’s structure and maintenance needs.
+                </p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Strong understanding of networking and network protocols essential for securing infrastructures.</li>
+                    <li>Solid knowledge of cybersecurity principles, common attacks, and effective detection methods.</li>
+                    <li><b> Security Hardening:</b> WordPress hardening, server hardening (Linux/Windows), and network hardening.</li>
+                    <li> <b>SOC & Monitoring:</b> Experience with building and maintaining SOC infrastructure; proficient in log collection, analysis, and real-time alerting using Wazuh, Splunk, and Security Onion.</li>
+                    <li> <b> Network Security:</b> Designing and optimizing firewall rules with pfSense; configuring and managing OpenVPN for secure remote access..</li>
+                    <li> <b>Cloud Security:</b> Securing cloud environments and managing resources on AWS, including IAM, networking, and monitoring.</li>
+                    <li> <b>Cyber Threat Intelligence (CTI):</b> Proficient with Threat Intelligence Platforms such as OpenCTI and MISP for gathering, analyzing, and sharing threat information. Skilled in creating and using YARA rules for threat detection.</li>
+                    <li> <b>Programming & Automation:</b> Python and JavaScript for security automation and scripting.</li>
+                    <li> <b>Incident Response:</b> Expert in rapid threat detection, analysis, and containment using digital forensics and SIEM tools to minimize business impact.</li>
+                    <li> <b>Communication:</b> Strong ability to communicate technical concepts clearly and work effectively with cross-functional teams.</li>
+                    <li>Advanced in English (C1).</li>
+                </ul>
+            </section>
+            <section id="experience">
+                <h2>Experience</h2>
+                <p> <b>security engineer | Cyberpedia </b> </p>
+                <p>March 2023 – Present</p>
+                <p>                    
+                    At Cyberpedia, I was responsible for building and managing the security operation center to deliver SOC as a Service to various clients. <br>
+                    Also, I am responsible of improving the security of both internal systems and client infrastructures by leading hardening efforts across websites, servers, and networks. <br> During this process, I worked extensively with technologies like AWS for securing cloud environments, pfsense+OpenVPN+HAproxy to to design secure network architectures and implement precise access control and secure remote access. <br>
+                    setup and configure many security solutions Wazuh,Splunk,ELK SEIM for monitoring, log analysis, and threat detection. <br>
+                     I also performed WordPress hardening on multiple client sites, securing configurations and preventing common web-based attacks.
+                      <br> Additionally, I handled tasks related to securing Active Directory domains, and deploying Security Onion as part of SOC infrastructure. <br> These tools and others were integral to delivering effective and reliable cybersecurity services to a wide range of clients.
+                    
+            </section>
+            <section id="certificates">
+                <h2>Certificates</h2>
+                <ul>
+                    <li>Google Cybersecurity Certificate</li>
+                    <li>Security engineer (TryHackMe)</li>
+                    <li>SOC L1 (TryHackMe)</li>
+                    <li>Certified Ethical Hacker (CEH)</li>
+                    <li>Cyber Security Fundamentals (CYBER OPS)</li>
+                    <li>Technical Support Fundamentals (Google)</li>
+                    <li>Front-End Web Development (Presented by New Horizons)</li>
+                </ul>
+            </section>
+            <section id="tools">
+                <h2>Tools & technologies</h2>
+                <div class="tools-frameworks-container">
+                    <div class="tools-section">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>security onion</li>
+                            <li>Splunk+Wazuh+ELK</li>
+                            <li>Wireshark</li>
+                            <li>IDS/IPS (Snort)</li>
+                            <li>Tenable Nessus</li>
+                        </ul>
+                    </div>
+                    <div class="frameworks-section">
+                        <h3>Technologies</h3>
+                        <ul>
+                            <li>AWS</li>
+                            <li>cloudflare</li>
+                            <li>pfSense</li>
+                            <li>OpenVPN</li>
+                            <li>HAproxy</li>
+                            <li>OpenCTI</li>
+                            <li>MISP</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact me</h2>
+                <div class="contact-info" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between;">
+                    <div style="flex:1; min-width: 220px;">
+                        <p>Email: ramisharif@gmail.com</p>
+                        <p>Phone: +963 994 288 642</p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/rami-sharif-cyber-security/" target="_blank">Rami Sharif</a></p>
+                    </div>
+                    <div style="flex:1; min-width: 220px; display: flex; justify-content: flex-end;">
+                        <div style="background: #f8f9fa; border-radius: 10px; padding: 10px; margin-left: 20px; text-align: center; overflow: hidden;">
+                            <span style="font-weight: bold; color: #007bb5; font-size: 15px; display: block; margin-bottom: 8px;">TryHackMe Badge</span>
+                            <iframe 
+                                src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3389069" 
+                                style="border:none; width: 320px; height: 180px; border-radius: 8px; background: #fff;"
+                                scrolling="no">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <div class="projects-section hidden" id="projectsSection">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="./images/WAF-800x560.png.jpg" alt="ModSecurity WAF">
+                    <div class="project-content">
+                        <h3>install ModSecurity WAF on apache2 web server</h3>
+                        <p>installing ModSecurity WAF on apache2 web server and configuring it with OWASP 10 rules to block malicious traffic.</p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">ModSecurity</span>
+                        <span class="tech-tag">Apache2</span>
+                        <a href="#https://docs.google.com/document/d/1AmoB9h0aEsyapOYLV0boPWDBWQJ8CHIi/edit?usp=drive_link&ouid=112875485652224758001&rtpof=true&sd=true" class="documentation-btn">Documentation</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="./images/Python-for-Cybersecurity_-How-to-Protect-Your-Business-from-Threats_big.jpg" alt="Threat Detection System">
+                    <div class="project-content">
+                        <h3>FIREWALL Simulation</h3>
+                        <p>built firewall simulation using python and scapy to block malicious traffic.</p>
+                        <div class="details">
+                            <P>1-The IP address is extracted.</P>
+
+                            <p>2-It is checked whether the address exists in the whitelist; if it does, the address is allowed.</p>
+
+                            <p>3-If the address is in the blacklist, the packet is dropped, and a log is created using the log_event function.</p>
+
+                            <p> 4-The system then checks if the packet contains the Nimda worm pattern using the is_nimda_worm function; if it does, the packet is also dropped, and the event is logged.</p>
+
+                            <p>5-The number of packets sent from the same address over a specified time period is calculated and compared with the THRESHOLD. If this number exceeds the threshold, the IP address is blocked and added to the blacklist to prevent DoS attacks. A log of the event is created afterward.</p>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scapy</span>
+                        <a href="https://github.com/Rami-sharif/FireWall.git" class="documentation-btn">Code</a>
+                    </div>
+
+                </div>
+                
+
+                <div class="project-card">
+                    <img src="./images/active diroctry project.jpeg" alt="active diroctry">
+                    <div class="project-content">
+                        <h3>Active diroctry project</h3>
+                        <p>Setting up a robust domain environment that aims to provide hands-on experience in IT administration, security, and threat detection.</p>
+                        <div class="details">
+                                <p>Here's what I worked on:</p>
+                                <p>1-Active Directory Setup: Configured a Windows Server 2022 as a domain controller, created user accounts, and managed group policies.</p>
+                                <p>2-SIEM Implementation: Installed and configured Splunk on an Ubuntu Server to ingest and analyze security logs from Windows machines, with Splunk Forwarders installed on both Windows 10 and Windows Server. </p>
+                                <p>3-Vulnerability Testing: Used Kali Linux to simulate attacks, such as conducting a brute force attack against a domain user, showcasing real-world attack scenarios. </p>
+                                <p>4-Telemetry Analysis: Analyzed the telemetry data generated by my attack using Splunk to demonstrate my ability to detect and respond to security incidents. </p>
+                                <p>5-Sysmon Configuration: Implemented Sysmon on both Windows 10 and Windows Server for enhanced logging. </p>
+                                <p>6-Virtualization: Leveraged VirtualBox to create a safe and isolated lab environment for experimentation. </p>
+                                
+                                <p>Why This Project Matters: 
+                                This project is vital for my growth as a SOC Analyst. It has provided me with practical skills in setting up and managing an Active Directory environment and implementing a SIEM for security monitoring. By understanding attack vectors and analyzing security telemetry, I can better identify and respond to potential threats. </p>
+                                
+                                <p>Key Takeaways: </p>
+                                <p>-Gained hands-on experience with Active Directory administration and domain management. </p>
+                                <p>-Learned how to set up a Splunk instance and ingest events from Windows servers. </p>
+                                <p>-Developed red and blue team skills through practical application. </p> 
+                                <p>-Improved my troubleshooting abilities and confidence in technical skills. </p>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Splunk</span>
+                        <span class="tech-tag">Sysmon</span>
+                        <span class="tech-tag">Active diroctry</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="./images/eye controll cover.png" alt="Eye Mouse Control">
+                    <div class="project-content">
+                        <h3>Eye Mouse Control (Python)</h3>
+                        <p>A Python-based application that lets you control your computer’s mouse entirely with your eyes – no mouse, no touch, and no extra devices.</p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">MediaPipe</span>
+                        <span class="tech-tag">PyAutoGUI</span>
+                        <span class="tech-tag">Tkinter</span>
+                        <a href="https://github.com/Rami-sharif/Eye-controlled-mouse.git" class="documentation-btn">Code</a>
+                        <span style="display:none" class="video-data" data-video="./images/0802.mp4" data-description="A Python-based application that lets you control your computer’s mouse entirely with your eyes – no mouse, no touch, and no extra devices.
+
+How does it work under the hood?
+
+The app opens your webcam and processes every single video frame in real time:
+
+Face & eye landmarks with MediaPipe:
+Using Google’s MediaPipe, the program extracts a detailed face mesh (468 points) and focuses on the landmarks around your eyes. From these points, it can figure out your gaze direction and whether your eyes are open or closed.
+
+Calibration phase:
+At the start, it records around 30 frames while you sit still, calculates the neutral eye position, and uses that as a baseline. After that, any small eye movement becomes significant.
+
+Mapping eyes to the screen:
+By calculating the center of both eyes, the program converts that position from camera coordinates (e.g., 640×480) to your actual screen size. If your eyes are in the middle of the camera feed, the cursor moves to the center of your screen.
+
+Smooth movement:
+To avoid jumpy movements, a smooth factor is applied so the cursor glides naturally instead of making abrupt jumps.
+
+Clicking with your eyes:
+This is where EAR (Eye Aspect Ratio) comes in. When EAR drops below a certain threshold for a short period → a click is triggered. If you close your eyes a bit longer, it performs a click-and-hold until you open your eyes again.
+
+All of this runs in real time, which means the system needs to keep the balance between speed and accuracy while processing every frame.
+
+Main technologies used:
+OpenCV: Capturing and processing video frames.
+MediaPipe: Extracting precise face and eye landmarks.
+PyAutoGUI: Moving the mouse and performing clicks.
+NumPy: Fast mathematical operations and smoothing calculations.
+Tkinter: A simple GUI to adjust sensitivity and cursor speed.
+
+The final experience?
+You look around – the mouse moves. You blink intentionally – a click happens. Hold your eyes closed a bit longer – a click-and-hold is triggered. And it all works with a regular webcam.
+
+Why this project matters to me:
+This type of system could help people who can’t use a mouse or keyboard normally. It also opens doors for contactless computer interaction, which is becoming increasingly important.
+
+What’s next?
+The next step is to integrate voice commands. Imagine opening applications, performing actions with your voice while controlling the cursor with your eyes.
+The vision: a fully touchless computer experience."></span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="./images/1753624488210.jpeg" alt="Network Infrastructure">
+                    <div class="project-content">
+                        <h3>Secure Network Infrastructure with DMZ Architecture</h3>
+                        <p>Designed and implemented a comprehensive network security solution for a large company using pfSense, HAProxy, and OpenVPN with DMZ architecture.</p>
+                        <div class="details">
+                            <p><strong>Project Overview:</strong></p>
+                            <p>Designed and implemented a comprehensive network security infrastructure for a large enterprise, focusing on secure access management and network segmentation. This project demonstrates my expertise in enterprise-level network security architecture.</p>
+                            
+                            <p><strong>Business Challenge:</strong></p>
+                            <p>The company required a secure network architecture that could handle two distinct types of services:</p>
+                            <p>• Public-facing services (websites and user applications)</p>
+                            <p>• Private internal systems (development environments, databases, admin dashboards)</p>
+                            
+                            <p><strong>Technical Solution:</strong></p>
+                            <p><strong>Public Services (DMZ Architecture):</strong></p>
+                            <p>Implemented a secure DMZ where all public domains (app.example.com, blog.example.com, login.example.com) route through pfSense WAN interface. HAProxy performs SNI-based routing to distribute traffic to appropriate servers within the DMZ. This eliminates direct access to public servers - all traffic is controlled through pfSense firewall and reverse proxy.</p>
+                            
+                            <p><strong>Private Network (LAN):</strong></p>
+                            <p>Established a completely isolated internal network with no direct external access. Implemented role-based access control where developers and administrators connect via OpenVPN, then access resources based on their specific permissions defined in firewall rules. Developers have access only to development environments, while administrators maintain full system access.</p>
+                            
+                            <p><strong>Network Segmentation:</strong></p>
+                            <p>Created strict isolation between DMZ and LAN networks. When DMZ services require database access, specific firewall rules are implemented to allow only necessary traffic. All other cross-zone communication is blocked by default.</p>
+                            
+                            <p><strong>Security Benefits:</strong></p>
+                            <p>• Public services remain accessible while being protected through controlled access points</p>
+                            <p>• Internal network is completely isolated from external threats</p>
+                            <p>• Centralized monitoring and access control from a single management point</p>
+                            <p>• Role-based access ensures users can only access authorized resources</p>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">pfSense</span>
+                        <span class="tech-tag">HAProxy</span>
+                        <span class="tech-tag">OpenVPN</span>
+                        <span class="tech-tag">DMZ</span>
+                        <span class="tech-tag">Network Security</span>
+                        <span class="tech-tag">SNI Routing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- إضافة Modal للمشاريع -->
+        <div id="projectModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-body">
+                    <video id="modalVideo" style="display:none; max-width:100%; border-radius:10px; margin-bottom:18px;" controls loop muted></video>
+                    <img src="" alt="" id="modalImage">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDescription"></p>
+                    <div id="modalTech"></div>
+                    <div class="modal-links">
+                        <!-- لا تضع أي زر هنا بشكل ثابت، فقط اتركها فارغة ليضيفها الجافاسكريبت -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <!-- تعديل زر القائمة -->
+    <button class="menu-toggle" id="menuToggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+</body>
+</html>
